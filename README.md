@@ -4,7 +4,7 @@ This is a simple ionic app using [ocrad.js](https://github.com/antimatter15/ocra
 
 ## Install
 ```
-$ ionic start https://github.com/matiastucci/ionic-ocr-example
+$ ionic start ionic-ocr-example https://github.com/matiastucci/ionic-ocr-example
 $ cordova plugin add cordova-plugin-camera
 $ ionic run ios
 ```
