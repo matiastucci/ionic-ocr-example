@@ -1,5 +1,9 @@
 # Ionic OCR example app
 
+<p align="center">
+  <img src="www/img/logo.png" alt="Logo"/>
+</p>
+
 This is a simple Ionic app using [ocrad.js](https://github.com/antimatter15/ocrad.js)
 
 [YouTube Video](https://youtu.be/4KH0p0vxO8w)
