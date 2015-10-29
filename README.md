@@ -15,7 +15,7 @@ $ ionic run ios
 ## How to test it
 * Download the [Ionic view] app
 * Signup/login to the app
-* Insert this ID: **TODO**
+* Insert this ID: **b3df25df**
 
 [Ionic view]:http://view.ionic.io/
 [cordova-plugin-camera]:http://ngcordova.com/docs/plugins/camera/
