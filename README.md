@@ -16,6 +16,11 @@ $ cordova plugin add cordova-plugin-camera
 $ ionic run ios
 ```
 
+## Development
+```
+$ ionic serve
+```
+
 ## Plugins (using ngCordova)
 * [cordova-plugin-camera]
 
