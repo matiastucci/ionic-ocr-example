@@ -14,6 +14,7 @@ If you want an Ionic 1 version of this, you can go to the [v1](https://github.co
 ```
 $ git clone https://github.com/matiastucci/ionic-ocr-example
 $ cd ionic-ocr-example
+$ npm i
 $ ionic state restore
 $ ionic run ios
 ```
