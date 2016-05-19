@@ -1,9 +1,3 @@
-<ion-navbar *navbar>
-  <ion-title>
-    Home
-  </ion-title>
-</ion-navbar>
-
 <ion-content class="home" padding>
 
   <div class="start" *ngIf="!srcImage" (click)="presentActionSheet()">
@@ -12,11 +6,11 @@
 
   <div *ngIf="srcImage" class="">
     <img id="image" src="{{ srcImage }}" />
-    <button block (click)="analyze()">
+    <button block dark outline (click)="analyze()">
       <ion-icon name="search"></ion-icon>
       Read
     </button>
-    <button block (click)="restart()">
+    <button block dark outline (click)="restart()">
       <ion-icon name="refresh"></ion-icon>
       Restart
     </button>
