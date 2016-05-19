@@ -61,9 +61,10 @@ export class HomePage {
     let loading = Loading.create();
     this.nav.present(loading);
     OCRAD(document.getElementById('image'), text => {
-      loading.dismiss();
-      console.log(text);
-      alert(text);
+      loading.dismiss().then(() => {
+        alert(text);
+        console.log(text);
+      });
     });
   }
 
