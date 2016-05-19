@@ -1,4 +1,4 @@
-# Ionic OCR Example
+# Ionic 2 OCR Example
 
 <p align="center">
   <img src="resources/icon.png" width="250" alt="Logo"/>
