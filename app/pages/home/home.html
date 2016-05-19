@@ -4,7 +4,7 @@
     <ion-icon name="camera"></ion-icon>
   </div>
 
-  <div *ngIf="srcImage" class="">
+  <div *ngIf="srcImage" class="image-wrapper">
     <img id="image" src="{{ srcImage }}" />
     <button block dark outline (click)="analyze()">
       <ion-icon name="search"></ion-icon>
