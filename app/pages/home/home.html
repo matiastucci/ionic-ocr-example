@@ -6,8 +6,20 @@
 
 <ion-content class="home" padding>
 
-  <div class="start" (click)="presentActionSheet()">
+  <div class="start" *ngIf="!srcImage" (click)="presentActionSheet()">
     <ion-icon name="camera"></ion-icon>
+  </div>
+
+  <div *ngIf="srcImage" class="">
+    <img id="image" src="{{ srcImage }}" />
+    <button block (click)="analyze()">
+      <ion-icon name="search"></ion-icon>
+      Read
+    </button>
+    <button block (click)="restart()">
+      <ion-icon name="refresh"></ion-icon>
+      Restart
+    </button>
   </div>
 
 </ion-content>
