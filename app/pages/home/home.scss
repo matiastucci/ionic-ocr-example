@@ -2,7 +2,7 @@
   scroll-content {
     display: flex;
   }
-  .start {
+  .select-image {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@
     max-height: 250px;
     background-color: color($colors, primary);
     color: color($colors, dark);
-    font-size: 6em;
+    font-size: 4em;
     border-style: solid;
     border-radius: 15px;
     margin: auto;
