@@ -12,9 +12,9 @@ If you want an Ionic 1 version of this, you can go to the [v1](https://github.co
 
 ## Getting Started
 ```
-$ ionic start ionic-ocr-example https://github.com/matiastucci/ionic-ocr-example
+$ git clone https://github.com/matiastucci/ionic-ocr-example
 $ cd ionic-ocr-example
-$ cordova plugin add cordova-plugin-camera
+$ ionic state restore
 $ ionic run ios
 ```
 
