@@ -5,7 +5,8 @@
 </p>
 
 This is a simple Ionic 2 app using [ocrad.js](https://github.com/antimatter15/ocrad.js).
-If you want an Ionic 1 version of this, you can go to the [v1](https://github.com/matiastucci/ionic-ocr-example/tree/v1) branch
+
+If you want an Ionic 1 version of this, you can go to the [v1](https://github.com/matiastucci/ionic-ocr-example/tree/v1) branch.
 
 [YouTube Video](https://youtu.be/4KH0p0vxO8w)
 
