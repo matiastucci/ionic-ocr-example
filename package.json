@@ -1,0 +1,40 @@
+{
+  "dependencies": {
+    "angular2": "2.0.0-beta.15",
+    "es6-shim": "^0.35.0",
+    "ionic-angular": "2.0.0-beta.6",
+    "ionic-native": "^1.2.1",
+    "ionicons": "3.0.0",
+    "rxjs": "5.0.0-beta.2"
+  },
+  "devDependencies": {
+    "del": "2.2.0",
+    "gulp": "3.9.1",
+    "gulp-watch": "4.3.5",
+    "ionic-gulp-browserify-es2015": "^1.1.0",
+    "ionic-gulp-fonts-copy": "^1.0.0",
+    "ionic-gulp-html-copy": "^1.0.0",
+    "ionic-gulp-sass-build": "^1.0.0",
+    "ionic-gulp-scripts-copy": "^1.0.1",
+    "run-sequence": "1.1.5"
+  },
+  "cordovaPlugins": [
+    "cordova-plugin-device",
+    "cordova-plugin-console",
+    "cordova-plugin-whitelist",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "ionic-plugin-keyboard",
+    "cordova-plugin-camera"
+  ],
+  "cordovaPlatforms": [
+    "ios",
+    {
+      "platform": "ios",
+      "version": "",
+      "locator": "ios"
+    }
+  ],
+  "name": "ocr-example",
+  "description": "ocr-example: An Ionic project"
+}
