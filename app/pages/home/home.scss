@@ -1,3 +1,18 @@
 .home {
-  
+  .start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 250px;
+    height: 100%;
+    max-height: 250px;
+    background-color: color($colors, primary);
+    color: color($colors, dark);
+    font-size: 6em;
+    border-style: dotted;
+    border-radius: 15px;
+    margin: auto;
+    cursor: pointer;
+  }
 }
