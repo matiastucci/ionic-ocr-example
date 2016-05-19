@@ -1,8 +1,12 @@
 <ion-content class="home" padding>
 
-  <div class="start" *ngIf="!srcImage" (click)="presentActionSheet()">
+  <!-- <div class="start" *ngIf="!srcImage" (click)="presentActionSheet()">
     <ion-icon name="camera"></ion-icon>
-  </div>
+  </div> -->
+
+  <button class="select-image" block dark outline *ngIf="!srcImage" (click)="presentActionSheet()">
+    <ion-icon name="camera"></ion-icon>
+  </button>
 
   <div *ngIf="srcImage" class="image-wrapper">
     <img id="image" src="{{ srcImage }}" />
