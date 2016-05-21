@@ -4,6 +4,10 @@
   <img src="resources/icon.png" width="250" alt="Logo"/>
 </p>
 
+[![bitHound Overall Score](https://www.bithound.io/github/matiastucci/ionic-ocr-example/badges/score.svg)](https://www.bithound.io/github/matiastucci/ionic-ocr-example)
+[![bitHound Dependencies](https://www.bithound.io/github/matiastucci/ionic-ocr-example/badges/dependencies.svg)](https://www.bithound.io/github/matiastucci/ionic-ocr-example/master/dependencies/npm)
+[![bitHound Code](https://www.bithound.io/github/matiastucci/ionic-ocr-example/badges/code.svg)](https://www.bithound.io/github/matiastucci/ionic-ocr-example)
+
 This is a simple Ionic 2 app using [ocrad.js](https://github.com/antimatter15/ocrad.js).
 
 If you want an Ionic 1 version of this, you can go to the [v1](https://github.com/matiastucci/ionic-ocr-example/tree/v1) branch.
