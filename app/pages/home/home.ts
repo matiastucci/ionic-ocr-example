@@ -61,7 +61,9 @@ export class HomePage {
   }
 
   analyze () {
-    let loading = Loading.create();
+    let loading = Loading.create({
+      content: 'Please wait...'
+    });
     this.nav.present(loading);
     OCRAD(document.getElementById('image'), text => {
       loading.dismiss().then(() => {
