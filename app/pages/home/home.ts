@@ -1,12 +1,15 @@
-import {Page, Loading, NavController, ActionSheet} from 'ionic-angular';
+import {Component} from '@angular/core';
+import {Loading, NavController, ActionSheet} from 'ionic-angular';
 import {Camera} from 'ionic-native';
+declare var OCRAD: any;
 
-@Page({
+@Component({
   templateUrl: 'build/pages/home/home.html'
 })
 export class HomePage {
 
   srcImage: string;
+  OCRAD: any;
 
   constructor(private nav: NavController) { }
 
@@ -58,7 +61,9 @@ export class HomePage {
   }
 
   analyze () {
-    let loading = Loading.create();
+    let loading = Loading.create({
+      content: 'Please wait...'
+    });
     this.nav.present(loading);
     OCRAD(document.getElementById('image'), text => {
       loading.dismiss().then(() => {
