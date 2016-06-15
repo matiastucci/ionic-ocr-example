@@ -20,7 +20,7 @@ $ git clone https://github.com/matiastucci/ionic-ocr-example
 $ cd ionic-ocr-example
 $ npm i
 $ ionic state restore
-$ ionic run ios
+$ ionic run browser
 ```
 
 ## Plugins (using Ionic Native)
