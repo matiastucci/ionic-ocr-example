@@ -1,0 +1,22 @@
+page-home {
+  .scroll-content {
+    display: flex;
+  }
+  .select-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 250px;
+    height: 100%;
+    max-height: 250px;
+    font-size: 4em;
+    border-style: solid;
+    border-radius: 15px;
+    margin: auto;
+    cursor: pointer;
+  }
+  .image-wrapper {
+    width: 100%;
+  }
+}

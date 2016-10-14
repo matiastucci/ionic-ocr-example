@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>OCR Example</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <button class="select-image" ion-button block *ngIf="!srcImage" (click)="presentActionSheet()" color="light">
+    <ion-icon name="camera"></ion-icon>
+  </button>
+
+  <div *ngIf="srcImage" class="image-wrapper">
+    <img id="image" [src]="srcImage" />
+    <button ion-button icon-left block (click)="analyze()" color="light">
+      <ion-icon name="search"></ion-icon>
+      Read
+    </button>
+    <button ion-button icon-left block (click)="restart()" color="light">
+      <ion-icon name="refresh"></ion-icon>
+      Restart
+    </button>
+  </div>
+
+</ion-content>
